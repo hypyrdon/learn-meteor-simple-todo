@@ -93,7 +93,7 @@ li.checked {
   color: #888;
 }
 
-li.checked .text {
+li.checked .text, li.checked .adate {
   text-decoration: line-through;
 }
 
@@ -123,5 +123,14 @@ header .hide-completed {
   .new-task input {
     padding-bottom: 5px;
   }
+}
+
+h1 .unfinished {
+  color: indianred;
+}
+
+li .adate {
+  margin-left: 40px;
+  float: right;
 }
 
