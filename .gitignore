@@ -1,4 +1,8 @@
+# tmp files
 *.swp
-.meteor/
 tmp
 log
+
+#build files
+.meteor/local
+.meteor/meteorite
